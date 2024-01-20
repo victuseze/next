@@ -1,15 +1,15 @@
-'use client'
+// 'use client'
 
-import React from 'react'
-import { useRouter } from 'next/router'
+// import React from 'react'
+// import { useRouter } from 'next/router'
 
-const page = () => {
-    const router = useRouter()
-    const {params} = router.query
-    console.log(params)
-  return (
-    <div>page {params}</div>
-  )
-}
+// const page = () => {
+//     const router = useRouter()
+//     const {params} = router.query
+//     console.log(params)
+//   return (
+//     <div>page {params}</div>
+//   )
+// }
 
-export default page
+// export default page
