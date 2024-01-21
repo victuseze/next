@@ -12,7 +12,8 @@ const page = () => {
         const result = await response.json();
 
         setUsers(result.users);
-      } catch (error) {
+      } 
+      catch (error) {
         console.error('Error fetching data:', error);
       }
     };
@@ -31,7 +32,6 @@ const page = () => {
             <strong>Age:</strong> {user.age}
             <br />
             <strong>Email:</strong> {user.email}
-            {/* Add more properties as needed */}
           </li>
         ))}
       </ul>
